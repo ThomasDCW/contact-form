@@ -1,10 +1,11 @@
+import "./globals.css";
 export const metadata = {
-  title: "Contact form",
+  title: "Contact-Form",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang='en' data-theme='winter'>
       <body>{children}</body>
     </html>
   );

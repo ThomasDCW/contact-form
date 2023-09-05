@@ -1,3 +1,9 @@
+import ContactForm from "./components/ContactForm";
+
 export default function Home() {
-  return <main>coucou</main>;
+  return (
+    <main className=''>
+      <ContactForm />
+    </main>
+  );
 }
