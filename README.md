@@ -3,12 +3,9 @@
 Build and deploy a contact form with **Next.js 13** & **SendGrid**, enabling you to receive emails from your clients easily.
 
 [Stack](#-stack)  
-[Get Started](#-get-started)  
-[Variables](#-setup-your-environements-variables)  
-[Sendgrid tutorial](#-first-time-with-sendgrid)  
-[Create your account](#-create-your-account)  
-[Create your template](#-create-your-template)  
-[Get dynamics data from your clients](#-get-dynamics-data-from-your-clients)
+[Get Started](#-install-locally)  
+[Variables](#-add-your-environements-variables)  
+[Sendgrid tutorial](#%EF%B8%8F-first-time-with-sendgrid-)
 
 ## 🧬 Stack
 
