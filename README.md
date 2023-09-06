@@ -1,15 +1,15 @@
 # 📮 Contact-Form
 
-Build and deploy a contact form with **Next.js 13** & **SendGrid**, enabling you to receive emails from your clients easily.
+This is a contact form with **Next.js 13** & **SendGrid**, enabling you to receive emails from your clients easily.
 
-[Stack](#-stack)  
-[Get Started](#-install-locally)  
-[Variables](#-add-your-environements-variables)  
-[Sendgrid tutorial](#%EF%B8%8F-first-time-with-sendgrid-)
+➡️ [Stack](#-stack)  
+➡️ [Install locally](#-install-locally)  
+➡️ [Environnements Variables](#-add-your-environements-variables)  
+➡️ [Sendgrid tutorial](#%EF%B8%8F-first-time-with-sendgrid-)
 
 ## 🧬 Stack
 
-🚀 [Nextjs13](https://daisyui.com/) (App directory)
+🚀 [Nextjs13](https://nextjs.org/docs) (Using App Router)
 
 ✉️ [Sendgrid](https://sendgrid.com/)
 
@@ -63,7 +63,7 @@ On the side bar :
 - Email API > Dynamic Templates
 - Create a Dynamic Template
 - Choose a name > Create
-- Design it as you want ! Enjoy
+- Design it as you want
 
 ### ⌨️ Get dynamics data from your clients
 
@@ -81,13 +81,12 @@ On the side bar :
 </div>
 ```
 
-This is an example, here it's important to you to notice the syntax {{example}}
-
+This is an example; here it's important for you to notice the syntax **{{field}}**.
 When you're finished, don't forget to obtain your TEMPLATE_ID from the Dynamic Template page.
 
-- Add your **TEMPLATE_ID** in .env.local
+- Copy and paste it your `TEMPLATE_ID` into the .env.local
 
-### 🔑 Generate your KEY_SENDGRID
+### 🔑 Generate your `KEY_SENDGRID`
 
 On the side bar :
 
@@ -95,7 +94,20 @@ On the side bar :
 - Create API Keys
 - Choose a name
 - Full Acess > Create & View
-- <font color="orange">⚠️ You will see the API_KEY only at this moment !</font>
-- Copy and paste in the .env.local
+- ⚠️ You will see the API_KEY only at this moment
+- Copy and paste it into the .env.local
 
-### 📤 Add a Sender
+### 📤 Add a Sender `FROM_TO`
+
+On the side bar :
+
+- Settings > Sender Authentication
+- Verify a Single Sender
+- Create a New Sender
+- Complete the form correctly
+- Verify you email
+- Add the sender email **FROM_TO** in the .env.local
+
+### 📥 Add a Receiver `EMAIL_TO`
+
+- Add the receiver email **EMAIL_TO**
