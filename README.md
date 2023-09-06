@@ -106,8 +106,8 @@ On the side bar :
 - Create a New Sender
 - Complete the form correctly
 - Verify you email
-- Add the sender email **FROM_TO** in the .env.local
+- Add the sender email FROM_TO in the .env.local
 
 ### 📥 Add a Receiver `EMAIL_TO`
 
-- Add the receiver email **EMAIL_TO**
+- Add the receiver email EMAIL_TO
