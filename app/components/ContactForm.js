@@ -103,10 +103,10 @@ export default function ContactForm() {
           </p>
         </div>
         <div className='flex justify-between pt-4'>
-          <button type='reset' className='btn btn-neutral'>
+          <button type='reset' className='btn btn-neutral font-mono'>
             Cancel
           </button>
-          <button type='submit' className='btn btn-primary'>
+          <button type='submit' className='btn btn-primary font-mono'>
             Send message
           </button>
         </div>
