@@ -1,5 +1,9 @@
 # 📮 Contact-Form
 
+📝 If you have any suggestion, you can open an issue or send me a message with this contact-form !
+
+➡️ [View Demo](https://contact-form-with-sendgrid.vercel.app/)
+
 This is a contact form with **Next.js 13** & **SendGrid**, enabling you to receive emails from your clients easily.
 
 ➡️ [Stack](#-stack)  
@@ -56,7 +60,7 @@ In this part, I'll show you step by step how to setup Sengrid.
 - Create your account
 - Signin
 
-### 👨‍🎨 Create your template
+### 👨‍🎨 Create your template `TEMPLATE_ID`
 
 On the side bar :
 
@@ -82,9 +86,8 @@ On the side bar :
 ```
 
 This is an example; here it's important for you to notice the syntax **{{field}}**.
-When you're finished, don't forget to obtain your TEMPLATE_ID from the Dynamic Template page.
 
-- Copy and paste it your `TEMPLATE_ID` into the .env.local
+Don't forget to obtain your TEMPLATE_ID from the Dynamic Template page. Copy and paste it into the .env.local
 
 ### 🔑 Generate your `KEY_SENDGRID`
 
@@ -97,7 +100,7 @@ On the side bar :
 - ⚠️ You will see the API_KEY only at this moment
 - Copy and paste it into the .env.local
 
-### 📤 Add a Sender `FROM_TO`
+### 📤 Add a Sender email `FROM_TO`
 
 On the side bar :
 
@@ -110,4 +113,6 @@ On the side bar :
 
 ### 📥 Add a Receiver `EMAIL_TO`
 
-- Add the receiver email EMAIL_TO
+The receiver is the email address where you want to receive messages.
+
+- Add the receiver email of your choice in EMAIL_TO
